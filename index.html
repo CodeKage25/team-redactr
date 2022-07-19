@@ -1,19 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redactr challenge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <section class="hero__section">
+      <div class="hero__container">
+        <!-- Header -->
+        <header class="hero__header">
+          <!-- Navbar -->
+          <nav class="hero__text-container">
+            <a href="#" class="hero__logo-text">Redactr</a>
+            <a href=".mobile__container" class="mobile__container" class="hero__text-details">How to use ?</a>
+          </nav>
+        </header>
+
+        <!-- Hero text -->
+        <div class="hero__text">
+          <h2 class="hero__text-heading">Scramble words easier and faster</h2>
+          <p class="hero__text-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet dolor urna euismod
+            tempor.
+          </p>
+
+          <!-- Web arrow Image -->
+          <img class= "mobile__container" class="hero__text-web-arrow" src="Images/web-arrow.svg" alt="arrow Image" />
+
+          <!-- Mobile arrow Image -->
+          <img class="hero__text-mobile-arrow" src="Images/mobile-arrow.svg" alt="arrow Image" />
+        </div>
+
+        <!-- How to Use (Desktop)-->
+        <div class="decription">
+          <p class="decription__list-heading">How to use ?</p>
+
+          <!-- List Items -->
+          <ol>
+            <li>Insert a sentence.</li>
+            <li>Enter a word to be scrambled.</li>
+            <li>Enter a secret word that would replace the actual word (optional).</li>
+            <li>Click on <span>Redact Now</span>.</li>
+            <li>Copy your scrambled text.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Main Section -->
+    <main class="main__section">
+      <div class="main__section-container">
+
+        <!-- Form -->
+        <form action="">
+          <!-- Enter a sentence -->
+          <label for="Statement">Enter a sentence</label><br>
+          <input type="text" placeholder="Lorem ipsum lorem ipsum lorem ipsum" id="sentence" name="sentence"><br>
+          <p class="error">This field can’t be empty</p>
+
+          <!-- Word to scramble -->
+          <label for="Word">Enter the word(s) you want to sramble</label><br>
+          <input type="text" placeholder="Enter multiple words by seprating with comma" id="words" name="words"><br>
+          <p class="error">This field can’t be empty</p>
+
+          <!-- Secret word -->
+          <label for="Secret">Enter your secret word</label><br>
+          <input type="text" placeholder="Enter multiple words by seprating with comma" id="secret-words"
+            name="secret-words"><br>
+
+
+          <!-- Submit -->
+          <button class="submit-btn" type="submit">Redactr Now</button>
+        </form>
+
+
+        <!-- Form output -->
+        <div class="form-ouput">
+          <p class="code-is-ready">Yay! Your secret code is ready</p>
+          <div id="scrambled-word">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. *** ullamcorper Ipsum congue ipsum nunc, cras ut
+              magna elit, ac *** urna Ipsum urna. Ipsum *** sit turpis proin sem est. Cursus sed Ipsum sit lobortis ***.
+            </p>
+            <button class="copy">
+              <p>Copy text</p>
+              <img src="/Images/copy.svg" alt="Copy icon">
+            </button>
+          </div>
+        </div>
+
+
+        <!-- Additional details -->
+        <div class="additional-details">
+          <p class="details-heading">We thought you might find this useful</p>
+          <ul>
+            <li>You scanned <span class="scanned-words">2</span> words.</li>
+            <li>You had <span class="matches">10</span> matches</li>
+            <li>You scrambled <span class="scrambled-words">10</span> words.</li>
+            <li>It took us <span class="time-taken">10 seconds</span> to scan your words.</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+
+  <!-- Mobile footer -->
+  <footer class="mobile__container">
+    <div class="mobile__container-details">
+      <div class="how-to-use">
+        <div class="list-heading-and-back-to-top-arrow">
+          <p class="list-heading">How to use ?</p>
+          <a href="#" class="mobile-back-to-top"></a><img class="back-to-top.svg" src="Images/Back-to-top.svg"
+            alt="Arrow Image" /></a>
+        </div>
+
+        <!-- List Items -->
+        <ul>
+          <li>Insert a sentence.</li>
+          <li>Enter a word to be scrambled.</li>
+          <li>Enter a secret word that would replace the actual word (optional).</li>
+          <li>Click on <span>Redact Now</span>.</li>
+          <li>Copy your scrambled text.</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>

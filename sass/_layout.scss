@@ -1,0 +1,78 @@
+.hero {
+  display:flex;
+  flex: 0 0 30%;
+  &__section {
+    background-color: #FFD84C;
+    height: 100vh;
+  }
+
+  &__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+  &__header {
+    
+  }
+
+  &__text-container {
+    
+  }
+
+  &__logo-text {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: inherit;
+    color: #000000;
+    font-weight: 600;
+    margin: 2rem 0 0 2rem;
+  }
+
+  &__text-details {
+    
+  }
+}
+
+.hero__text {
+
+  &-heading {
+    
+  }
+
+  &-details {
+    
+  }
+
+  &-web-arrow {
+    
+  }
+
+  &-mobile-arrow {
+    
+  }
+}
+
+.description {
+
+  &__list-heading {
+    
+  }
+}
+
+
+.mobile__container {
+  opacity: 0;
+  display: none;
+  
+}
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 70%;
+  &-container {
+    
+  }
+}

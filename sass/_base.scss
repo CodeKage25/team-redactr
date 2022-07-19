@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #FFD84C;
+  --color-secondary: #242424;
+  --placeholder: #948A8A;
+  --error: #FF0000;
+  --form-border-color: #dddddd;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  // padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
