@@ -18,7 +18,7 @@
   }
 
   &__text-container {
-    
+    margin-top: 2.5rem;
   }
 
   &__logo-text {
@@ -27,7 +27,8 @@
     font-style: inherit;
     color: #000000;
     font-weight: 600;
-    margin: 2rem 0 0 2rem;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
   }
 
   &__text-details {
@@ -36,6 +37,13 @@
 }
 
 .hero__text {
+  position: relative;
+  margin-left: 2rem;
+  margin-top: -9rem;
+
+  // &-arrow {
+  //   margin-right: 2rem;
+  // }
 
   &-heading {
     
@@ -46,7 +54,9 @@
   }
 
   &-web-arrow {
-    
+   position: absolute;
+   left: 11rem;
+   top: 20rem;
   }
 
   &-mobile-arrow {
@@ -55,11 +65,24 @@
 }
 
 .description {
+  // margin-left: 2rem;
+  // margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 
   &__list-heading {
+    padding-bottom: 2rem !important;
+    margin: 0 auto;
+
+    &-item {
+  padding-bottom: 3rem !important;
+  margin-left: 2rem !important;
+}
+    
     
   }
 }
+
+
 
 
 .mobile__container {

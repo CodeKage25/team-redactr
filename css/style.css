@@ -19,6 +19,94 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400; }
 
+.main__section {
+  display: flex;
+  padding: 3%;
+  font-family: 'inherit';
+  font-size: 17px;
+  flex-direction: column;
+  flex: 0 0 70%; }
+
+input[type=text] {
+  padding: 1%;
+  width: 100%;
+  border: 1px solid  #948A8A; }
+
+::placeholder {
+  font-size: 13px;
+  color: #948A8A; }
+
+Label {
+  line-height: 30px; }
+
+textarea {
+  font-size: 15px;
+  font-family: inherit;
+  height: 7rem;
+  width: 100%;
+  border: 1px solid  #948A8A; }
+
+.submit-btn {
+  background-color: #FFD84C;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  width: 30%;
+  font-style: inherit;
+  font-weight: 800;
+  height: 8vh;
+  border: none; }
+
+.error {
+  font-size: 15px;
+  font-style: italic;
+  color: red;
+  font-weight: 400; }
+
+.error1 {
+  font-size: 15px;
+  margin-top: -5px;
+  font-style: italic;
+  color: red;
+  font-weight: 400; }
+
+.form-ouput {
+  font-family: inherit; }
+
+.additional-details {
+  font-family: inherit; }
+
+.copy {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding-top: 1%;
+  font-weight: 800;
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  border: 3px solid #FFD84C;
+  height: 8vh;
+  cursor: pointer; }
+
+.code-is-ready {
+  font-weight: 800; }
+
+#scrambled-word {
+  border: 1px solid  #948A8A;
+  height: auto;
+  color: #948A8A;
+  padding: 3%; }
+
+.details-heading {
+  font-weight: 800; }
+
+li {
+  padding: 3px; }
+
+.matches {
+  font-weight: 800; }
+
 .hero {
   display: flex;
   flex: 0 0 30%; }
@@ -30,13 +118,34 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+  .hero__text-container {
+    margin-top: 2.5rem; }
   .hero__logo-text {
     text-decoration: none;
     text-transform: uppercase;
     font-style: inherit;
     color: #000000;
     font-weight: 600;
-    margin: 2rem; }
+    margin-left: 2rem;
+    margin-top: 2.5rem; }
+
+.hero__text {
+  position: relative;
+  margin-left: 2rem;
+  margin-top: -9rem; }
+  .hero__text-web-arrow {
+    position: absolute;
+    left: 11rem;
+    top: 20rem; }
+
+.description {
+  margin-bottom: 2rem !important; }
+  .description__list-heading {
+    padding-bottom: 2rem !important;
+    margin: 0 auto; }
+    .description__list-heading-item {
+      padding-bottom: 3rem !important;
+      margin-left: 2rem !important; }
 
 .mobile__container {
   opacity: 0;

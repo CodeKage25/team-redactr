@@ -33,16 +33,24 @@
           </p>
 
           <!-- Web arrow Image -->
+<!--           <img class= "mobile__container" class="hero__text-web-arrow" src="Images/web-arrow.svg" alt="arrow Image" />
+
+          <!-- Mobile arrow Image -->
+<!--           <img class="hero__text-mobile-arrow" src="Images/mobile-arrow.svg" alt="arrow Image" /> --> -->
+        </div>
+        <div class="hero__text-web-arrow">
+          <!-- Web arrow Image -->
           <img class= "mobile__container" class="hero__text-web-arrow" src="Images/web-arrow.svg" alt="arrow Image" />
 
           <!-- Mobile arrow Image -->
           <img class="hero__text-mobile-arrow" src="Images/mobile-arrow.svg" alt="arrow Image" />
         </div>
-
         <!-- How to Use (Desktop)-->
         <div class="decription">
-          <p class="decription__list-heading">How to use ?</p>
-
+          <div class="decription__list-heading">
+          <p>How to use ?</p>
+          </div>
+          <div class="decription__list-heading-list">
           <!-- List Items -->
           <ol>
             <li>Insert a sentence.</li>
@@ -51,6 +59,7 @@
             <li>Click on <span>Redact Now</span>.</li>
             <li>Copy your scrambled text.</li>
           </ol>
+          </div>  
         </div>
       </div>
     </section>
@@ -63,37 +72,45 @@
         <!-- Form -->
         <form action="">
           <!-- Enter a sentence -->
-          <label for="Statement">Enter a sentence</label><br>
-          <input type="text" placeholder="Lorem ipsum lorem ipsum lorem ipsum" id="sentence" name="sentence"><br>
-          <p class="error">This field can’t be empty</p>
+          <label for="Statement">Enter a sentence:</label><br>
+          <textarea placeholder="Lorem ipsum lorem ipsum lorem ipsum" id="sentence" name="sentence"></textarea>
+          <p class="error">This field can’t be empty!</p><br>
 
           <!-- Word to scramble -->
-          <label for="Word">Enter the word(s) you want to sramble</label><br>
-          <input type="text" placeholder="Enter multiple words by seprating with comma" id="words" name="words"><br>
-          <p class="error">This field can’t be empty</p>
+          <label for="Word">Enter the word(s) you want to scramble:</label><br>
+          <input type="text" placeholder="Enter multiple words by seprating with comma" id="words" name="words">
+          <p class="error">This field can’t be empty!</p><br>
 
           <!-- Secret word -->
-          <label for="Secret">Enter your secret word</label><br>
+          <label for="Secret">Enter your secret word:</label><br>
           <input type="text" placeholder="Enter multiple words by seprating with comma" id="secret-words"
-            name="secret-words"><br>
+            name="secret-words"/><br><br>
 
 
           <!-- Submit -->
-          <button class="submit-btn" type="submit">Redactr Now</button>
+          <div align = 'right'>
+            <button class="submit-btn" type="submit" >Redactr Now</button>
+
+          </div>
+          
         </form>
 
 
-        <!-- Form output -->
+        <!-- Form output --><br>
         <div class="form-ouput">
-          <p class="code-is-ready">Yay! Your secret code is ready</p>
-          <div id="scrambled-word">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. *** ullamcorper Ipsum congue ipsum nunc, cras ut
+          <p class="code-is-ready">Yay! Your secret code is ready</p><br>
+          <div>
+            <p id="scrambled-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. *** ullamcorper Ipsum congue ipsum nunc, cras ut
               magna elit, ac *** urna Ipsum urna. Ipsum *** sit turpis proin sem est. Cursus sed Ipsum sit lobortis ***.
-            </p>
-            <button class="copy">
-              <p>Copy text</p>
-              <img src="/Images/copy.svg" alt="Copy icon">
-            </button>
+            </p><br>
+            <div align = 'right'>
+
+            
+              <button class="copy">Copy text
+              
+                <img src="/Images/copy.svg" alt="Copy icon">
+              </button>
+            </div>
           </div>
         </div>
 
@@ -102,10 +119,10 @@
         <div class="additional-details">
           <p class="details-heading">We thought you might find this useful</p>
           <ul>
-            <li>You scanned <span class="scanned-words">2</span> words.</li>
+            <li>You scanned <span class="matches">2</span> words.</li>
             <li>You had <span class="matches">10</span> matches</li>
-            <li>You scrambled <span class="scrambled-words">10</span> words.</li>
-            <li>It took us <span class="time-taken">10 seconds</span> to scan your words.</li>
+            <li>You scrambled <span class="matches">10</span> words.</li>
+            <li>It took us <span class="matches">10</span> seconds to scan your words.</li>
           </ul>
         </div>
       </div>

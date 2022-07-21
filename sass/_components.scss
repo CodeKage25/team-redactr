@@ -1,0 +1,95 @@
+.main__section {
+  display: flex;
+  padding:3%;
+  font-family:'inherit';
+  font-size: 17px;
+  flex-direction: column;
+  flex: 0 0 70%; }
+
+  input[type = text]{
+    padding:1%; 
+    width:100%;
+    border:1px solid  #948A8A;
+  }
+  ::placeholder{
+    font-size:13px;
+    color:#948A8A;
+ 
+
+  }
+  Label{
+    line-height: 30px;
+  }
+  textarea{
+    font-size:15px;
+    font-family: inherit;
+    height:7rem;
+    width:100%;
+    border:1px solid  #948A8A;
+  }
+
+  .submit-btn{
+    background-color:#FFD84C;
+    color:black;
+    font-size: 15px;
+    cursor: pointer;
+    width:30%;
+    font-style: inherit;
+    font-weight:800;
+    height:8vh;
+    border:none;
+  }
+  .error{
+    font-size: 15px;
+    
+    font-style: italic;
+    color:red;
+    font-weight:400;
+
+  }
+  .error1{
+    font-size: 15px;
+    margin-top:-5px;
+    font-style: italic;
+    color:red;
+    font-weight:400;
+  }
+  .form-ouput{
+    font-family:inherit;
+  }
+  .additional-details{
+    font-family:inherit;
+  }
+
+  .copy{
+    display:flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-top: 1%;
+    font-weight:800;
+    text-align: center;
+    background-color: white;
+    width:30%;
+    border:3px solid#FFD84C;
+    height:8vh;
+    cursor: pointer;
+  }
+  .code-is-ready{
+    font-weight: 800;
+  }
+  #scrambled-word{
+    
+    border:1px solid  #948A8A;
+    height:auto;
+    color: #948A8A;
+    padding:3%;
+  }
+  .details-heading{
+    font-weight: 800;
+  }
+  li{
+    padding:3px;
+  }
+  .matches{
+    font-weight: 800;
+  }
