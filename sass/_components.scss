@@ -1,7 +1,7 @@
-.main__section {
+ .main__section{
   display: flex;
   padding:3%;
-  font-family:'inherit';
+  font-family:'Poppins', sans-serif;
   font-size: 17px;
   flex-direction: column;
   flex: 0 0 70%; }
@@ -22,7 +22,7 @@
   }
   textarea{
     font-size:15px;
-    font-family: inherit;
+    font-family:'Poppins', sans-serif;
     height:7rem;
     width:100%;
     border:1px solid  #948A8A;
@@ -34,7 +34,7 @@
     font-size: 15px;
     cursor: pointer;
     width:30%;
-    font-style: inherit;
+    font-style: poppins;
     font-weight:800;
     height:8vh;
     border:none;
@@ -55,7 +55,7 @@
     font-weight:400;
   }
   .form-ouput{
-    font-family:inherit;
+    font-family:'Poppins', sans-serif;
   }
   .additional-details{
     font-family:inherit;

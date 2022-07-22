@@ -2,15 +2,19 @@
   display:flex;
   flex: 0 0 30%;
   &__section {
-    background-color: #FFD84C;
-    height: 100vh;
+    // background-color: #FFD84C;
   }
 
   &__container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    overflow: hidden;
+    background-color: #FFD84C;
+    // height: 100vh;
+    width: 35%;
+    position: relative;
+    // position: fixed;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-evenly;
     }
 
   &__header {
@@ -19,6 +23,7 @@
 
   &__text-container {
     margin-top: 2.5rem;
+    // width: 1rem;
   }
 
   &__logo-text {
@@ -37,9 +42,16 @@
 }
 
 .hero__text {
-  position: relative;
-  margin-left: 2rem;
-  margin-top: -9rem;
+  // display: flex;
+  // flex-direction: column;
+  position: absolute;
+  // margin-left: 2rem;
+  // margin-top: -9rem;
+  position: absolute;
+  width: 357px;
+  height: 171px;
+  left: 2rem;
+  top: 178px;
 
   // &-arrow {
   //   margin-right: 2rem;
@@ -50,13 +62,18 @@
   }
 
   &-details {
-    
+    position: absolute;
+    width: 342px;
+    height: 78px;
+    top: 80px;
   }
 
   &-web-arrow {
-   position: absolute;
-   left: 11rem;
-   top: 20rem;
+    position: absolute;
+    width: 226px;
+    height: 63.23px;
+    left: 150px;
+    top: 135px;
   }
 
   &-mobile-arrow {
@@ -64,23 +81,32 @@
   }
 }
 
-.description {
+
   // margin-left: 2rem;
   // margin-bottom: 2rem;
-  margin-bottom: 2rem !important;
+ 
 
-  &__list-heading {
-    padding-bottom: 2rem !important;
-    margin: 0 auto;
+  .decription__list-heading {
+    position: relative;
+    width: 102px;
+    height: 26px;
+    left: 2rem;
+    top: 540px;
+    font-weight: 600;
 
-    &-item {
-  padding-bottom: 3rem !important;
-  margin-left: 2rem !important;
-}
-    
-    
   }
+
+.decription__list-heading-list {
+  position: relative;
+  width: 370px;
+  height: 220px;
+  left: 1.5rem;
+  top: 550px;
 }
+    
+    
+  
+
 
 
 
@@ -95,7 +121,12 @@
   display: flex;
   flex-direction: column;
   flex: 0 0 70%;
+  
   &-container {
     
   }
+}
+
+ol > li {
+  padding: 8px;
 }
