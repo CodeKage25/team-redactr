@@ -8,6 +8,7 @@
   <title>Redactr challenge</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel = "stylesheet" href = "css/screen.css"/>
 </head>
 
 <body>
@@ -80,24 +81,24 @@
         <!-- Form -->
         <form action="">
           <!-- Enter a sentence -->
-          <label for="Statement">Enter a sentence:</label><br>
-          <textarea placeholder="Lorem ipsum lorem ipsum lorem ipsum" id="sentence" name="sentence"></textarea>
-          <p class="error">This field can’t be empty!</p><br>
+          <label class = 'edit' for="Statement">Enter a sentence:</label><br>
+          <textarea placeholder="Lorem ipsum lorem ipsum lorem ipsum" class="name" name="sentence"></textarea>
+          <p class="error1" >This field can’t be empty!</p><br>
 
           <!-- Word to scramble -->
           <label for="Word">Enter the word(s) you want to scramble:</label><br>
-          <input type="text" placeholder="Enter multiple words by seprating with comma" id="words" name="words">
+          <input type="text" placeholder="Enter multiple words by seprating with comma" class="scramble" name="words">
           <p class="error">This field can’t be empty!</p><br>
 
           <!-- Secret word -->
           <label for="Secret">Enter your secret word:</label><br>
-          <input type="text" placeholder="Enter multiple words by seprating with comma" id="secret-words"
+          <input type="text" placeholder="Enter multiple words by seprating with comma" class="replace"
             name="secret-words"/><br><br>
 
 
           <!-- Submit -->
           <div align = 'right'>
-            <button class="submit-btn" type="submit" >Redactr Now</button>
+            <button class="submit-btn" type="submit">Redactr Now</button>
 
           </div>
           
@@ -127,10 +128,10 @@
         <div class="additional-details">
           <p class="details-heading">We thought you might find this useful</p>
           <ul>
-            <li>You scanned <span class="matches">2</span> words.</li>
-            <li>You had <span class="matches">10</span> matches</li>
-            <li>You scrambled <span class="matches">10</span> words.</li>
-            <li>It took us <span class="matches">10</span> seconds to scan your words.</li>
+            <li>You scanned <span class="words"></span> words.</li>
+            <li>You had <span class="matches"></span> matches</li>
+            <li>You scrambled <span class="matches"></span> words.</li>
+            <li>It took us <span class="matches"></span> seconds to scan your words.</li>
           </ul>
         </div>
       </div>
@@ -145,7 +146,7 @@
       <div class="how-to-use">
         <div class="list-heading-and-back-to-top-arrow">
           <p class="list-heading">How to use ?</p>
-          <a href="#" class="mobile-back-to-top"><img class="back-to-top.svg" src="Images/Back-to-top.svg"
+          <a href="#" class="mobile-back-to-top"></a><img class="back-to-top.svg" src="Images/Back-to-top.svg"
             alt="Arrow Image" /></a>
         </div>
 
@@ -162,7 +163,9 @@
   </footer>
 
   <!-- // ============= EEND DO NOT EDIT ============== // -->
-  <script src="index.mjs" type="module"></script>
+<!--   <script src="index.mjs" type="module"></script> -->
+<!--   <script src="index.mjs"</script> -->
+  <script src = './index.js'></script>
   <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
 
